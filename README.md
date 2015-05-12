@@ -1,7 +1,15 @@
-_Build a social network in 3 weeks with Node.js_
+Social Network just like Facebook built using - MEAN Stack.
+This is the initial draft of the project - however, the project is still under development. I initially wrote this using jQuery and then slowly transition into AngularJS.
+At the moment - still the AJAX calls are constructed using jQuery, but they will be changing into https - AngularJS.
+The project is initially derived from the base project - https://github.com/jdolitsky/nodejscourse and then worked on top of that. I will be contributing to this repository
+when I feel the project is complete :-). However,it is functional and can be forked.  
+
+The Login page is built, users can comment and delete the posts,put their comments etc. 
+My database is hosted at MongoLab. You could use your own instance of your mongoDB running at your local PC. I am MAC user, so I would recommend using it, but nothing stop Windows user to start experimenting. The project is also hosted on Heroku. you could access it via the url below.
+
+Feel free to use it or comment for any improvement.
 
 ##Description
-The course will be split into three sections, each new section building off of topics explored from the last. The goal of the course is to build out a fully-functional social network similar to Facebook or Twitter using the popular new framework Node.js.
 
 The three sections will be divided as follows:
 
