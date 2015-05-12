@@ -1,0 +1,1183 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"error",
+				"errorMessage"
+			],
+			[
+				"user",
+				"username"
+			],
+			[
+				"ex",
+				"existFlag"
+			],
+			[
+				"co",
+				"console"
+			],
+			[
+				"erro",
+				"errorMessage"
+			],
+			[
+				"err",
+				"errorMsg"
+			],
+			[
+				"logi",
+				"loginDetails"
+			],
+			[
+				"comment",
+				"commenttime"
+			],
+			[
+				"time",
+				"timecomment"
+			],
+			[
+				"fins",
+				"finduser"
+			],
+			[
+				"comme",
+				"commentidx"
+			],
+			[
+				"sta",
+				"statustime"
+			],
+			[
+				"remove",
+				"removecomment"
+			],
+			[
+				"t",
+				"target"
+			],
+			[
+				"comm",
+				"commentbody"
+			],
+			[
+				"c",
+				"commentdata"
+			],
+			[
+				"re",
+				"responseText"
+			],
+			[
+				"new",
+				"newcomment"
+			],
+			[
+				"marg",
+				"margin-left"
+			],
+			[
+				"cone",
+				"content-box"
+			],
+			[
+				"statuse",
+				"statuses"
+			],
+			[
+				"status",
+				"statuscomment"
+			],
+			[
+				"my",
+				"myStatus"
+			],
+			[
+				"st",
+				"statusTime"
+			],
+			[
+				"sm",
+				"smallname"
+			],
+			[
+				"tim",
+				"timestamp"
+			],
+			[
+				"i",
+				"iStatus"
+			],
+			[
+				"text",
+				"textbody"
+			],
+			[
+				"po",
+				"postStatus"
+			],
+			[
+				"pos",
+				"postAjaxCall"
+			],
+			[
+				"post",
+				"postStatus"
+			],
+			[
+				"sma",
+				"smallpic_img"
+			],
+			[
+				"res",
+				"responseText"
+			],
+			[
+				"get",
+				"getId"
+			],
+			[
+				"a",
+				"addStatus"
+			],
+			[
+				"delete",
+				"deletecomment"
+			],
+			[
+				"ke",
+				"keyCode"
+			],
+			[
+				"nu",
+				"num_likes_post"
+			],
+			[
+				"S",
+				"String"
+			],
+			[
+				"id",
+				"_id"
+			],
+			[
+				"in",
+				"individualStatus"
+			],
+			[
+				"pa",
+				"params"
+			],
+			[
+				"usr",
+				"username"
+			],
+			[
+				"find",
+				"findpass"
+			],
+			[
+				"fpass",
+				"fpassword"
+			],
+			[
+				"fa",
+				"findpass"
+			],
+			[
+				"to",
+				"toLowerCase"
+			],
+			[
+				"sr",
+				"string2"
+			],
+			[
+				"this",
+				"thisHtml"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"num",
+				"numModified"
+			],
+			[
+				"commen",
+				"comment_ordinal"
+			],
+			[
+				"u",
+				"update"
+			],
+			[
+				"im",
+				"image_id"
+			],
+			[
+				"set",
+				"set_seq"
+			],
+			[
+				"va",
+				"value"
+			],
+			[
+				"s",
+				"students"
+			],
+			[
+				"sc",
+				"school"
+			],
+			[
+				"lo",
+				"loggingattr"
+			],
+			[
+				"logg",
+				"logged"
+			],
+			[
+				"dl",
+				"doLogging"
+			],
+			[
+				"curr",
+				"currentCTN"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "public/js/main.js",
+			"settings":
+			{
+				"buffer_size": 12878,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "server.js",
+			"settings":
+			{
+				"buffer_size": 16534,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "views/login.ejs",
+			"settings":
+			{
+				"buffer_size": 4516,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/manan/Sites/myproject/Bupa/Html/racAng.html",
+			"settings":
+			{
+				"buffer_size": 9353,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "public/js/upload.js",
+			"settings":
+			{
+				"buffer_size": 1772,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "views/profile.ejs",
+			"settings":
+			{
+				"buffer_size": 5235,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "views/homepage.ejs",
+			"settings":
+			{
+				"buffer_size": 1252,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "views/layout.ejs",
+			"settings":
+			{
+				"buffer_size": 1973,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "public/css/main.css",
+			"settings":
+			{
+				"buffer_size": 11323,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "public/css/sass/screen.scss",
+			"settings":
+			{
+				"buffer_size": 63,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "views/forget.ejs",
+			"settings":
+			{
+				"buffer_size": 377,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "public/css/sass/_modules/forms.scss",
+			"settings":
+			{
+				"buffer_size": 837,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "public/css/sass/screen.css",
+			"settings":
+			{
+				"buffer_size": 2461,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "public/css/screen.css",
+			"settings":
+			{
+				"buffer_size": 1613,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "Packages/SASS/SASS (OSX).sublime-build",
+	"command_palette":
+	{
+		"height": 47.0,
+		"selected_items":
+		[
+			[
+				"set syntax:SASS",
+				"Set Syntax: SASS"
+			],
+			[
+				"set s",
+				"Set Syntax: HTML"
+			],
+			[
+				"set",
+				"Set Syntax: HTML"
+			],
+			[
+				"",
+				"Set Syntax: CSS"
+			],
+			[
+				":s ",
+				"Set Syntax: JavaScript"
+			],
+			[
+				":s",
+				"Set Syntax: Scala"
+			],
+			[
+				"se",
+				"Set Syntax: HTML (Erlang)"
+			],
+			[
+				"set Syntaxcss",
+				"Set Syntax: CSS"
+			],
+			[
+				"s",
+				"Set Syntax: C#"
+			],
+			[
+				"set syn",
+				"Set Syntax: HTML"
+			],
+			[
+				"set Syntax:c",
+				"Set Syntax: CSS"
+			]
+		],
+		"width": 392.0
+	},
+	"console":
+	{
+		"height": 0.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/manan/Sites/myproject/week_7_final_exam/question_4/final4/Final4/blog/routes/session.js",
+		"/Users/manan/Sites/myproject/nodesocial/public/css/sass/_modules/like.scss",
+		"/Users/manan/Sites/myproject/nodesocial/public/js/sample_sme.js",
+		"/Users/manan/Sites/myproject/nodesocial/package.json",
+		"/Users/manan/Sites/myproject/nodesocial/views/glyphicon.html",
+		"/Users/manan/Sites/myproject/nodejs/fruit-ninja-master/app/scripts/app.js",
+		"/Users/manan/Sites/myproject/nodesocial/views/fileUpload_test.html",
+		"/Users/manan/Sites/myproject/nodesocial/upload.js",
+		"/Users/manan/Sites/myproject/nodesocial/views/homepage.ejs",
+		"/Users/manan/Sites/myproject/nodesocial/views/forget.ejs",
+		"/Users/manan/Sites/myproject/nodesocial/views/login.ejs",
+		"/Users/manan/Sites/myproject/nodesocial/views/welcome.ejs",
+		"/Users/manan/Sites/myproject/week_7_final_exam/question_4/final4/Final4/blog/views/entry_template.html",
+		"/Users/manan/Sites/myproject/week_7_final_exam/question_4/final4/Final4/blog/posts.js",
+		"/Users/manan/Sites/myproject/week_7_final_exam/question_4/final4/Final4/blog/routes/content.js",
+		"/Users/manan/Sites/myproject/nodesocial/views/profile.ejs",
+		"/Users/manan/Sites/myproject/nodesocial/server.js",
+		"/Users/manan/Sites/myproject/nodesocial/public/css/lightbox.css",
+		"/Users/manan/Sites/myproject/nodesocial/public/css/screen.css",
+		"/Users/manan/Sites/myproject/nodesocial/views/layout.ejs",
+		"/Users/manan/Sites/myproject/week_7_final_exam/question_4/final4/Final4/blog/views/blog_template.html",
+		"/Users/manan/Sites/myproject/nodesocial/public/css/main.css",
+		"/Users/manan/Sites/myproject/Bupa/BOD/sass/_includes/_vars.scss",
+		"/Users/manan/Sites/myproject/nodesocial/public/css/sass/screen.scss",
+		"/Users/manan/Sites/myproject/nodesocial/public/css/normalize.min.css",
+		"/Users/manan/Sites/myproject/nodesocial/public/css/normalize.css",
+		"/Users/manan/Sites/myproject/nodesocial/public/css/sass/_modules/forms.scss",
+		"/Users/manan/Sites/myproject/nodesocial/views/showpass.ejs",
+		"/Users/manan/Sites/myproject/jasmineJQ/specrunner.html",
+		"/Users/manan/Sites/myproject/Bupa/HtmlDrop 2/sass/screen.scss",
+		"/Users/manan/Sites/myproject/Bupa/HtmlDrop 2/sass/_components/_treatmentmodule.scss",
+		"/Users/manan/Sites/myproject/Bupa/HtmlDrop 2/sass/_components/_pricelistmodule.scss",
+		"/Users/manan/Sites/myproject/Bupa/HtmlDrop 2/sass/_components/_aboutmodule.scss",
+		"/Users/manan/Sites/myproject/karmaproject/tests/object.test.js",
+		"/Users/manan/Sites/myproject/karmaproject/js/object.js",
+		"/Users/manan/Sites/myproject/Bupa/HtmlDrop 2/treatmentMain.html",
+		"/Users/manan/Sites/myproject/Bupa/HtmlDrop 2/sass/_components/_policy.scss",
+		"/Users/manan/Sites/myproject/Bupa/HtmlDrop 2/sass/_includes/_mixins.scss",
+		"/Users/manan/Sites/myproject/Bupa/HtmlDrop 2/sass/_includes/_functions.scss",
+		"/Users/manan/Sites/myproject/Bupa/HtmlDrop 2/sass/_includes/_utilities.scss",
+		"/Users/manan/Sites/myproject/Bupa/HtmlDrop 2/sass/_includes/_vars.scss",
+		"/Users/manan/Sites/myproject/Bupa/HtmlDrop 2/sass/_components/_footer.scss",
+		"/Users/manan/Sites/myproject/Bupa/HtmlDrop 2/sass/_components/_waystocontact.scss",
+		"/Users/manan/Sites/myproject/Bupa/HtmlDrop 2/sass/_components/_header.scss",
+		"/Users/manan/Sites/myproject/Bupa/HtmlDrop 2/sass/_components/_members-area.scss",
+		"/Users/manan/Sites/myproject/Bupa/HtmlDrop 2/sass/_components/_titlemodule.scss",
+		"/Users/manan/Sites/myproject/Bupa/HtmlDrop 2/sass/_components/_mbtop.scss",
+		"/Users/manan/Sites/myproject/Bupa/HTML_Drops_22Aug2014/treatmentMain.html",
+		"/Users/manan/Sites/myproject/Bupa/HTML_Drops_22Aug2014/sass/_home.scss",
+		"/Users/manan/Sites/myproject/Bupa/bupaHealthInfo/templates/treatLay.html",
+		"/Users/manan/Sites/myproject/Bupa/HTML_Drops_22Aug2014/javascript/local.js",
+		"/Users/manan/Sites/myproject/Bupa/HTML_Drops_22Aug2014/sass/_includes/_vars.scss",
+		"/Users/manan/Sites/myproject/Bupa/HTML_Drops_22Aug2014/sass/_components/_mbtop.scss",
+		"/Users/manan/Sites/myproject/Bupa/bupaHealthInfo/assets/mbcss/local.css",
+		"/Users/manan/Sites/myproject/Bupa/HTML_Drops_22Aug2014/treatLay.html",
+		"/Users/manan/Sites/myproject/jasmine/spec/checkVowelSpec.js",
+		"/Users/manan/Sites/myproject/jasmine/src/removeVowel.js",
+		"/Users/manan/Sites/myproject/jasmine/src/checkGreaterThanHundred.js",
+		"/Users/manan/Sites/myproject/jasmine/spec/checkGreaterHundredSpec.js",
+		"/Users/manan/Sites/myproject/jasmine/src/sayHello.js",
+		"/Users/manan/Sites/myproject/NewCo/myvodafone/assets/css_style2013.css",
+		"/Users/manan/Sites/myproject/NewCo/myvodafone/assets/css_print.css",
+		"/Users/manan/Sites/myproject/NewCo/myvodafone/assets/css_newco-base.css",
+		"/Users/manan/Sites/myproject/NewCo/myvodafone/assets/css_style2012.css",
+		"/Users/manan/Sites/myproject/jasmine/src/helloworld.js",
+		"/Users/manan/Sites/myproject/BOD/sass/local.css",
+		"/Users/manan/Sites/myproject/BOD/sass/_components/_masthead.scss",
+		"/Users/manan/Sites/myproject/BOD/sass/_components/_header.scss",
+		"/Users/manan/Sites/myproject/BOD/sass/_components/_members-area.scss",
+		"/Users/manan/Sites/myproject/BOD/sass/_components/_personal-details.scss",
+		"/Users/manan/Sites/myproject/BOD/sass/_components/_preauth.scss",
+		"/Users/manan/Sites/myproject/BOD/sass/_components/_dashboard.scss",
+		"/Users/manan/Sites/myproject/BOD/sass/_components/_policy.scss",
+		"/Users/manan/Sites/myproject/BOD/css/screen.css",
+		"/Users/manan/Sites/myproject/oops/inputbox.html",
+		"/Users/manan/Sites/myproject/oops/inputb.css",
+		"/Users/manan/Sites/myproject/blogproject/views/home.jade",
+		"/Users/manan/Sites/myproject/blogproject/views/layout.jade",
+		"/Users/manan/Sites/myproject/blogproject/views/signup.jade",
+		"/Users/manan/Sites/myproject/blogproject/models/user.js",
+		"/Users/manan/Sites/myproject/blogproject/middleware/index.js",
+		"/Users/manan/Sites/myproject/blogproject/views/login.jade",
+		"/Users/manan/Sites/myproject/blogproject/routes/index.js",
+		"/Users/manan/Sites/myproject/blogproject/routes/errors.js",
+		"/Users/manan/Sites/myproject/blogproject/routes/login.js",
+		"/Users/manan/Sites/myproject/NewCo/myvodafone/Registration/registration.html",
+		"/Users/manan/Sites/myproject/NewCo/myvodafone/MB/test.html",
+		"/Users/manan/Sites/myproject/NewCo/myvodafone/MB/testscript.js",
+		"/Users/manan/Sites/myproject/NewCo/myvodafone/assets/js_vdf_2012.js",
+		"/Users/manan/Sites/myproject/NewCo/myvodafone/assets/js_vdf_manageContact.js",
+		"/Users/manan/Sites/myproject/NewCo/myvodafone/MB/jquery-1.7.2.js",
+		"/Users/manan/Downloads/week_6_application_engineering 2/creating_a_replica_set/create_replica_set.sh",
+		"/Users/manan/Downloads/week_6_application_engineering 2/creating_a_replica_set/init_replica.js",
+		"/Users/manan/Sites/myproject/myblog/users.js",
+		"/Users/manan/Sites/myproject/myblog/posts.js",
+		"/Users/manan/Sites/myproject/myblog/views/login.html",
+		"/Users/manan/Sites/myproject/oops/module_closure.js",
+		"/Users/manan/Sites/myproject/week_7_final_exam/question_7/final7/final7/solution.js",
+		"/Users/manan/Sites/myproject/week_7_final_exam/question_4/final4/Final4/blog/README.md",
+		"/Users/manan/Sites/myproject/week_3_schema_design/homework_3_3_manual_validation_version/hw3-2and3-3/hw3-2and3-3/blog/users.js",
+		"/Users/manan/Sites/myproject/week_3_schema_design/homework_3_3_manual_validation_version/hw3-2and3-3/hw3-2and3-3/blog/views/login.html",
+		"/Users/manan/Sites/myproject/week_3_schema_design/homework_3_3_manual_validation_version/hw3-2and3-3/hw3-2and3-3/blog/views/error_template.html",
+		"/Users/manan/Sites/myproject/week_3_schema_design/homework_3_3_manual_validation_version/hw3-2and3-3/hw3-2and3-3/blog/views/signup.html",
+		"/Users/manan/Sites/myproject/week_3_schema_design/homework_3_3_manual_validation_version/hw3-2and3-3/hw3-2and3-3/blog/views/entry_template.html",
+		"/Users/manan/Sites/myproject/week_3_schema_design/homework_3_3_manual_validation_version/hw3-2and3-3/hw3-2and3-3/blog/views/welcome.html",
+		"/Users/manan/Downloads/week_6_application_engineering/creating_a_replica_set/create_replica_set.sh",
+		"/Users/manan/Sites/myproject/python/student_low.py",
+		"/Users/manan/Sites/myproject/week_3_schema_design/homework_3_2_manual_validation_version/hw3-2and3-3/hw3-2and3-3/blog/app.js",
+		"/Users/manan/Sites/myproject/week_3_schema_design/homework_3_3_manual_validation_version/hw3-2and3-3/hw3-2and3-3/blog/posts.js",
+		"/Users/manan/Sites/myproject/week_3_schema_design/homework_3_2_manual_validation_version/hw3-2and3-3/hw3-2and3-3/blog/routes/error.js",
+		"/Users/manan/Sites/myproject/week_3_schema_design/homework_3_2_manual_validation_version/hw3-2and3-3/hw3-2and3-3/blog/routes/content.js",
+		"/Users/manan/Sites/myproject/mydojo/code/grid/grid_actions.html",
+		"/Users/manan/Sites/myproject/week_2_crud/node_js_driver_skip_limit_and_sort/skip_limit_sort/skip_limit_sort/lowest_score",
+		"/Users/manan/Sites/myproject/week_3_schema_design/homework_3_3_manual_validation_version/hw3-2and3-3/hw3-2and3-3/blog/sessions.js",
+		"/Users/manan/Sites/myproject/week_2_crud/node_js_driver_skip_limit_and_sort/skip_limit_sort/skip_limit_sort/app_student.js",
+		"/Users/manan/Sites/myproject/week_3_schema_design/homework_3_2_manual_validation_version/hw3-2and3-3/hw3-2and3-3/blog/users.js",
+		"/Users/manan/Sites/myproject/mydojo/code/grid/grid_2_views.html",
+		"/Users/manan/Sites/myproject/mydojo/code/dom/questions.css",
+		"/Users/manan/Sites/myproject/python/week_1_introduction/hello_world_mongo_style/pymongo_getting_started.py",
+		"/Users/manan/Sites/myproject/mydojo/code/grid/grid_filters.html",
+		"/Users/manan/Downloads/code/dom/questions1.htm",
+		"/Users/manan/Downloads/code/dom/questions3.htm",
+		"/Users/manan/Sites/myproject/NewCo/myvodafone/AddressManagement PRO02/addAddress_copy.html",
+		"/Users/manan/Sites/myproject/NewCo/myvodafone/AddressManagement PRO02/addAddressMB.html",
+		"/Users/manan/Sites/myproject/NewCo/myvodafone/Contact Management ACO02/contactManagement_userSelectedMB.html"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"/Users/manan/Sites/myproject/nodesocial",
+			"/Users/manan/Sites/nodesocial",
+			"/Users/manan/Sites/myproject/week_7_final_exam/question_4/final4/Final4/blog",
+			"/Users/manan/Sites/myproject/BOD/sass"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"login",
+			"errorMessage",
+			"error",
+			"MessageUser",
+			"login",
+			"signup",
+			"sign",
+			"signup",
+			"hola",
+			"sign",
+			"hola",
+			"signup",
+			"col",
+			"centerme",
+			"ryan",
+			"back",
+			"angular.min.js.map",
+			"angular.min",
+			"angular",
+			"map",
+			"signup",
+			"an",
+			"username hola",
+			"user us",
+			"white",
+			"whitw",
+			"white",
+			"invalid user",
+			"invalid",
+			"click",
+			"res.red",
+			"/login",
+			"login",
+			"error",
+			"login",
+			"/login",
+			"statuses",
+			"/login",
+			"statuses",
+			"/login",
+			"statuses",
+			"/login",
+			"statuses",
+			"login",
+			"click",
+			"post",
+			"getTime",
+			"commentbody",
+			"mystatus",
+			"commentbody",
+			"remove",
+			"profile",
+			"uploadima",
+			"uploadForm",
+			"img",
+			"easy",
+			"uploads",
+			"profiler",
+			"comment",
+			"url",
+			"profiler",
+			"multer",
+			"profiles",
+			"profile",
+			"username",
+			"files",
+			"dirname",
+			"profiler",
+			"upload",
+			"profiler",
+			"load",
+			"bodyPa",
+			"request",
+			"statuses",
+			"btnremove",
+			"comment",
+			"commentdata",
+			"newcomment",
+			"commentbody",
+			"post",
+			"colorize",
+			"removeStatus",
+			"removeAjaxCall",
+			"Image",
+			"what you",
+			"post",
+			"header-container",
+			"like",
+			"Global",
+			"newcomment",
+			"submit",
+			"stext",
+			"statuses",
+			"gettime",
+			"statuses",
+			"title",
+			"newcomment",
+			"comment",
+			"remove",
+			"removestatus",
+			"removesta",
+			"statuses",
+			"getTime",
+			"time",
+			"stime",
+			"getTime",
+			"removeId",
+			"timeago",
+			"statuses",
+			"users",
+			"users:user",
+			"statuses",
+			"users",
+			"no user",
+			"users",
+			"no user",
+			"statuses",
+			"username",
+			"	if (req.session.user) {\n			var status = req.body.status;		\n			var username = req.session.user.username;\n			var pic = req.session.user.image;\n			var myId = getId(status);\n\n			console.log(\"myId is:\" + myId);\n			var statusData = { \n				body: status,\n				time: new Date().getTime(),\n				username: username,\n				image: pic,\n				comments: [],\n				likes: [],\n				type: myId\n			};\n			var newStatus = new Status(statusData).save(function (err) {\n				console.log(username+' has posted a new status');\n				io.sockets.emit('newStatus', {statusData: statusData});\n				res.redirect('/users/'+username);\n			});\n	} else {\n		res.redirect('/login');\n	}\nno user",
+			"statuses",
+			"users",
+			"No user found by id",
+			"statuses",
+			"No user found by id",
+			"statuses",
+			"logout",
+			"statuses",
+			"ind"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"createUserMsg"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 7,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "public/js/main.js",
+					"settings":
+					{
+						"buffer_size": 12878,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4163,
+								4163
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1436.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "server.js",
+					"settings":
+					{
+						"buffer_size": 16534,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								7882,
+								7882
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 4886.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "views/login.ejs",
+					"settings":
+					{
+						"buffer_size": 4516,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								685,
+								685
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/Users/manan/Sites/myproject/Bupa/Html/racAng.html",
+					"settings":
+					{
+						"buffer_size": 9353,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								388,
+								388
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "public/js/upload.js",
+					"settings":
+					{
+						"buffer_size": 1772,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								242,
+								242
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "views/profile.ejs",
+					"settings":
+					{
+						"buffer_size": 5235,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1813,
+								1813
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Erlang/HTML (Erlang).tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "views/homepage.ejs",
+					"settings":
+					{
+						"buffer_size": 1252,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1252,
+								1252
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "views/layout.ejs",
+					"settings":
+					{
+						"buffer_size": 1973,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1678,
+								1678
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "public/css/main.css",
+					"settings":
+					{
+						"buffer_size": 11323,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								7884,
+								7884
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "public/css/sass/screen.scss",
+					"settings":
+					{
+						"buffer_size": 63,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								61,
+								61
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SASS/Syntaxes/SASS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "views/forget.ejs",
+					"settings":
+					{
+						"buffer_size": 377,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								316,
+								316
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "public/css/sass/_modules/forms.scss",
+					"settings":
+					{
+						"buffer_size": 837,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								262,
+								262
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SASS/Syntaxes/SASS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "public/css/sass/screen.css",
+					"settings":
+					{
+						"buffer_size": 2461,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1051.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 13,
+					"file": "public/css/screen.css",
+					"settings":
+					{
+						"buffer_size": 1613,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1613,
+								1613
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 650.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 100.0
+	},
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 95.0,
+	"status_bar_visible": true
+}

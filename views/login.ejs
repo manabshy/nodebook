@@ -1,0 +1,118 @@
+
+<% layout('layout') -%>
+<% block('topbar', '<a href="/login" id="login">Login</a>') -%>
+
+<div class="col-sm-12">
+	<div ng-app="signupApp" ng-controller="signupController" class="row">
+		<div class="col-sm-7 col-sm-push-7">
+				<div class="form-group">
+					<div class="col-sm-offset-3 col-sm-2">
+						<h3>Login here</h3>
+					</div>
+				</div>
+				<% if (error2) { %> <div class="error"><%= error2 %></div><% } %>
+							    
+					<form role="form" name="login" class="form-horizontal" id="flogin" action="/login" method="POST" autocomplete="on" ng-submit="submitForm(login.$valid)" novalidate>
+
+
+						 <div class="form-group">
+						    <div class="col-sm-offset-3 col-sm-3">
+						 		<span class="errorMessage"></span>
+						    </div>
+						 </div>
+
+						 <div class="form-group" ng-class="{ 'has-error' : login.lusername.$invalid && !login.lusername.$pristine }">
+						    <div class="col-sm-offset-3 col-sm-3">
+						      <input type="text" class="form-control input-sm" name="lusername" placeholder="Username" ng-model="loginData.lusername">
+						    </div>
+						 </div>
+						 <div class="form-group" ng-class="{ 'has-error' : login.lpassword.$invalid && !login.lpassword.$pristine }">
+						    <div class="col-sm-offset-3 col-sm-3">
+						      <input type="password" class="form-control input-sm" name="lpassword" placeholder="Password" ng-model="loginData.lpassword">
+						    </div>
+						 </div>
+
+						 <div class="form-group">
+						    <div class="col-sm-offset-3 col-sm-3">
+						      <div class="checkbox">
+						        <label>
+						          <input type="checkbox"> Remember me
+						        </label>
+						      </div>
+						    </div>
+						 </div>
+						 <div class="form-group">
+						    <div class="col-sm-offset-3 col-sm-3">
+						    	<i class="fa fa-spinner fa-2x fa-pulse"></i>
+				      			<input type="submit" class="login btn btn-success" value="Login" ng-disabled="login.$invalid"/>
+						    </div>
+						 </div>						
+				    </form>
+				    <pre> {{ loginData }}</pre>
+				   
+		</div>
+
+		<div class="col-sm-4 col-sm-pull-7">			
+				    <h3> New member? Sign up!</h3>
+			     <% if (error1) { %> <div class="error"><%= error1 %></div><% } %>
+				
+				<form name="signupForm" role="form" class="form-horizontal" id="signup" action="/signup" method="POST" autocomplete="on" ng-submit="submitForm(signupForm.$valid)" novalidate>
+
+					  						  
+					 <div class="form-group error">
+					    <div class="col-sm-6">
+					 		<span class="errorMessageUser"></span>
+					    </div>
+					 </div>
+					 <div class="form-group" ng-class="{ 'has-error' : signupForm.username.$invalid && !signupForm.username.$pristine }">
+					    <div class="col-sm-6">
+					      <input type="text" class="form-control input-sm" name="username" placeholder="Username" ng-model="signupData.username" ng-minlength="3" ng-maxlength="10" required>
+					        <p ng-show="signupForm.username.$error.minlength" class="help-block">Username is too short.</p>
+					        <p ng-show="signupForm.username.$error.maxlength" class="help-block">Username is too long.</p>
+    					</div>
+					  </div>
+					  <div class="form-group" ng-class="{ 'has-error' : signupForm.password.$invalid && !signupForm.password.$pristine }">
+					    <div class="col-sm-6">
+					      <input type="password" ng-minlength="8" ng-maxlength="50" class="form-control input-sm" name="password" placeholder="Password" ng-model="signupData.password" required>
+					        <p ng-show="signupForm.password.$error.minlength" class="help-block">Password is minimum eight characters long.</p>
+					        <p ng-show="signupForm.password.$error.maxlength" class="help-block">Password is maximum fifty characters long.</p>
+					    </div>
+					  </div>
+					  <div class="form-group">
+					    <div class="col-sm-6">
+					      <input type="password" class="form-control input-sm" name="confirm" placeholder="Confirm Password" 
+					      ng-model="signupData.confirm" >
+					    </div>
+					  </div>
+					  <div class="form-group" ng-class="{ 'has-error' : signupForm.email.$invalid && !signupForm.email.$pristine }">
+					    <div class="col-sm-6">
+					      <input type="email" class="form-control input-sm" name="email" placeholder="Email" ng-model="signupData.email" >
+			              <p ng-show="signupForm.email.$invalid && !signupForm.email.$pristine" class="help-block">Enter a valid email.</p>
+
+					    </div>
+					  </div>
+					  <div class="form-group">
+					    <div class="col-sm-6">
+					    	<button class="signup btn btn-success" name="signup" type="sumbit" ng-disabled="signupForm.$invalid"> Sign Up! </button>
+					    </div>
+					  </div>	
+				  <!-- SHOW DATA FROM INPUTS AS THEY ARE BEING TYPED -->
+				  <pre>
+				      {{ signupData }}
+				  </pre>				    
+
+			    </form>
+				    			
+		</div>
+
+	</div>
+</div>		
+
+
+
+ 
+
+
+
+   
+

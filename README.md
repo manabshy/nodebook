@@ -1,14 +1,21 @@
-# nodebook
-Social Network just like Facebook developed using MongoDB,Express,AngularJS,NodeJS
-Front end  -  is developed using Bootstrap,CSS3,HTML5,EJS Template - for the views
-Middleware -  Express,NodeJs
-Backend    -  MongoDb
-Deployment -  Have also deployed this web app to Heroku. For this web app - I am connecting to the instance of the mongoDB running on
-MongoLab.
-I will be writing an article about deploying and hosting your NodeJs web app specifially on Heroku.
-There are plenty of options available such as Modulus I/O, Openshift,nodejitsu,DigitalOcean. I tried most of them, but there is 
-nothing better than Heroku I suppose.
-Have a read through the below article for the time being - I found it quiet helpful. I will write one of own shortly
+_Build a social network in 3 weeks with Node.js_
 
-http://www.htmlxprs.com/post/43/5-best-paas-solutions-for-hosting-nodejs-app
+##Description
+The course will be split into three sections, each new section building off of topics explored from the last. The goal of the course is to build out a fully-functional social network similar to Facebook or Twitter using the popular new framework Node.js.
 
+The three sections will be divided as follows:
+
+###1. Intro to Node.js
+We will help you get your computer setup to run Node.js. You will learn the basics behind Node.js and NPM, the package manager for Node.js. We will build a basic web server using the package Express and learn how to code up dynamic web pages using EJS.
+
+###2. Adding user profiles using MongoDB
+This section will focus on connecting your app to a database, specifically MongoDB, a popular choice for Node. We will use the package Mongoose to set up user models, and write some HTML forms to insert, update, and delete from the database. We will explore URL routing and create custom user profiles.
+
+###3. Advanced Node.js topics
+In this section we will wrap up the social network app, adding things such as a Facebook wall feature for users to interact with each other. We will explore session management and user authentication, as well as advanced Node.js techniques using the realtime package Socket.io.
+
+
+##Requirements
+* Laptop with Mac or Linux installed, or alternatively a Windows machine and root access to a linux web server. For Mac users, having the latest OS (Mountain Lion) is highly recommended to avoid installation errors
+* Some programming background (preferably JavaScript)
+* Basic knowledge of HTML and CSS

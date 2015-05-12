@@ -1,0 +1,37 @@
+$errorColor:red;
+
+.signup,.profileInfo {
+	background-color: #3A5792;
+}
+#flogin,#signup {
+	.form-group{
+		margin-bottom:0px;
+	}
+}
+.form-group.error {
+	display:none;
+	.errorMessage,.errorMessageUser{
+		color: $errorColor;
+	}	
+}
+.errorMessage,.error{
+		color: $errorColor;	
+}
+.validationMessage {
+    font-size: smaller;
+    color: red;
+}
+.validationShadow {
+    -moz-box-shadow: -1px -1px 12px -2px red !important;
+    -webkit-box-shadow: -1px -1px 12px -2px red !important;
+    box-shadow: -1px -1px 12px -2px red !important;
+    border-color: red !important;
+    border-width: 1px !important;
+}
+.SuccessValidation-icon {
+  background: white url("../img/tick.png") right no-repeat;
+  background-position: 97% 50%; }
+
+ .validationError-icon {
+  background: white url("../img/Icons_CloseRed.png") right no-repeat;
+  background-position: 97% 50%; }

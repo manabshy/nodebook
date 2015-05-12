@@ -1,0 +1,100 @@
+span.likeId {
+	position: relative;
+	margin-right: 40px;
+}
+
+span.dislikeId {
+	position: relative;
+	margin-right: 40px;
+}
+
+.post.statuslike{
+	display: block;	
+}
+
+span#removeId,#removecomment{
+	position: relative;
+	left: 400px;
+}
+textarea.newcomment{
+	position: relative;
+	display:block;
+	top: 0px;
+	left: 5px;
+	float: right;
+	width:96%;
+}
+textarea.form-control.newcomment{
+  	height:23px;
+}
+.comment{
+	cursor:pointer;
+}
+
+.post.postcomment {
+	word-break: break-word;
+	font-size: 10px;
+	background-color:#e9eaed;
+
+	.commentbody{
+			width:85%;
+		span#removeId {
+			position: relative;
+			left: 350px;
+
+		}
+		p {
+			width:98%;
+		}
+		span.clike {
+			position: relative;
+			left: 15px;
+		}
+	}
+}
+
+.removeButton {
+	background: url('img/icon-sprite.png') no-repeat -20px -300px;
+	width: 14px;
+	height: 14px;
+}
+button.btnlike {
+	position: relative;
+	right: 27px;
+	top: 0px;
+	background: url('/img/img_sprite.png') no-repeat -204px -797px;
+	width: 25px;
+	height: 25px;
+	border:none;	
+}
+button.btndislike {
+	position: relative;
+	right: 27px;
+	top: 0px;
+	background: url('/img/img_sprite.png') no-repeat -169px -838px;
+	width: 25px;
+	height: 25px;
+	border:none;	
+}
+
+.btnremove,.btnremovecomment{
+    background: url("/img/img_sprite.png") no-repeat -120px -409px;
+	width: 16px;
+	height: 16px;
+	border:none;	
+	float:left;
+}
+
+form.iStatus {
+
+margin-bottom: -6px;
+
+}
+
+.post.postcomment{
+	margin-bottom: -5px;
+}
+
+article .mystatus{
+width:85%	
+}

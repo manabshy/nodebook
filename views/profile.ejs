@@ -1,0 +1,162 @@
+
+<% layout('layout') -%>
+<% block('topbar', 
+	'<div id="rightside">\
+		<a id="user" href="/users/'+currentUser.username+'">\
+			<img id="userpic" src="'+currentUser.image+'"/>\
+			<span id="username">'+currentUser.username+'</span>\
+		</a>\
+		<a href="/logout" id="logout">Logout</a>\
+	</div>'
+) -%>
+<script>window.jQuery || document.write('<script src="/js/vendor/jquery-1.10.1.min.js"><\/script>')</script>
+
+<script>
+var myname = "<%= currentUser.username %>";
+</script>
+<%
+if (user.username == currentUser.username) { 
+	var isMe = true;
+} else {
+	var isMe = false;
+}
+%>
+<div id="message"></div>
+<div class="container">
+	<div class="row">
+		<div class="col-sm-4 text-center">
+			<aside class="profileInfo">
+				<h1 id="theusername"><%= user.username %></h1>
+				<a class="example-image-link" href="<%= user.image %>" data-lightbox="enalargeImage"><img id="profPic" src="<%= user.image %>"></a><br>
+				<% if (isMe) { %> 
+				
+			    <form id="uploadForm" method="POST" action="/profile" enctype="multipart/form-data">
+			        <div id="image_preview"><img id="previewing" src="noimage.png" /></div>
+			        <hr id="line">
+			        <div id="selectImage">
+					<input type="file" id="userFileInput" name="userFile">
+			        <input type="button" value="Upload photo" class="btn btn-default sub" name="uploadfile"/>
+					<input name="image" class="form-control" type="text" id="image" value="<%= user.image %>"/><br>
+					About you<br>
+					<textarea class="form-control" id="bio" name="bio"><%= user.bio %></textarea><br><br>
+					<input name="update" class="btn btn-primary sub" type="submit" value="Update">
+				</form>
+
+
+				<% } else { %>
+					<%= user.bio %>
+				<% } %>
+			</aside>
+		</div>
+		<div class="col-sm-offset-1 col-sm-6">
+			<article class="centerme">
+				<div id="postsOuter">
+					<% 
+					if (isMe) { %>
+						<form action="/statuses"  id="postNewStatus" method="POST">
+							<textarea class="form-control" id="newstatus" name="status" placeholder="What's your status?"></textarea>
+							<input id="postbtn" class="btn btn-primary" type="button" value="Post"/>
+						</form>
+					<% 
+					}
+			    	
+					for (var i=0;i<statuses.length;i++) {  %>
+					<form action="/individualStatus"  class="iStatus" method="POST">
+						<div class="post col-sm-12">
+							<div class="statusbody"> 
+								<div class="row">
+									<div class="col-sm-3">
+										<a class="colorize" href="/users/<%= user.username %>">
+											<div class="smallpic">
+												<img class="smallpic_img" src="<%= user.image %>">
+											</div>	
+											<div class="smallname"><%= user.username %></div>
+										</a>
+									</div>
+									<div class="col-sm-7">
+										<div class="timestamp"><abbr class="timeago" title="<%= new Date(statuses[i].time).toISOString() %>">
+										</abbr></div>
+									</div>
+								</div>	
+								<div class="mystatus">
+									<div class="row">	
+										<div class="col-sm-12 statusText">			
+												<p><%= statuses[i].body %></p>
+										</div>
+									</div>
+									<div class="row">	
+										<div class="col-sm-1 removeStatus">		
+												<span class="glyphicon glyphicon-remove"></span>
+										</div>		
+										<div class="col-sm-1">		
+												<span class="glyphicon glyphicon-thumbs-up"></span>
+										</div>
+										<div class="col-sm-1">				
+												<span class="glyphicon glyphicon-thumbs-down"></span>
+										</div>		
+										
+									</div>												
+								</div>	
+								<% for(j=0;j<statuses[i].comments.length;j++) {%>  <!-- iterating comments  -->
+					                <div class="post postcomment"> 
+										
+											<div class="timestamp">
+												<abbr class="timeago" title="<%= new Date(statuses[i].comments[j].time).toISOString() %>"></abbr>
+											</div>
+
+											<a class="colorize" href="/users/<%= user.username %>">
+												<div class="smallpic">
+													<img class="smallpic_img" src="<%= user.image %>">
+												</div>	
+												<div class="smallname"><%= user.username %></div>
+											</a>
+											
+											<article class="commentbody">
+												<p><%= statuses[i].comments[j].body %></p>
+
+													<span id='removecomment'>
+														<button type="button" class="btnremovecomment"></button></span>
+													<span class="clike">
+														<button type="submit" class="btnlike"></button>
+														<input type="hidden" name="likepost_ordinal" value="loop.index0" />
+														<button type="submit" class="btndislike"></button>
+												    </span>
+
+											</article>	
+					                </div>											
+								<% } %>	
+						
+								<div class="showcomment">
+									<textarea class="form-control newcomment" name="comment" placeholder="Post a comment"></textarea>
+									<input type="hidden" name="status" value="<%= statuses[i].body %>" />
+								</div>					
+							</div>	<!-- end of statusbody -->
+						</div>		<!-- end of post -->	
+					</form>         <!-- end of forn individualStatus -->
+
+					<% } %>
+
+				</div>
+
+			</article>
+		</div>				
+
+
+	</div>
+</div>			
+<!--
+<div class="main">
+    <form id="uploadimage" action="" method="post" enctype="multipart/form-data">
+        <div id="image_preview"><img id="previewing" src="noimage.png" /></div>
+        <hr id="line">
+        <div id="selectImage">
+        <label>Select Your Image</label><br/>
+        <input type="file" name="file" id="file" required />
+        <input type="submit" value="Upload" class="submit" />
+    </div>
+    </form>
+</div>
+<h4 id='loading' >loading..</h4>
+
+-->
+

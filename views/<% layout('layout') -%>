@@ -1,0 +1,9 @@
+<% layout('layout') -%>
+
+
+<div class="showPass">
+	<h1 class="no-margin-top">Your Password is</h1>
+	<form action="/findpass" method="POST">
+	    <span class="showpassword"></span>
+	</form>
+</div>

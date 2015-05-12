@@ -1,0 +1,10 @@
+<% layout('layout') -%>
+
+
+<div class="showPass">
+	<h2 class="no-margin-top">Password for username <%= fusername %> is </h2>
+	<form action="/findpass" method="POST">
+	    <span class="showpassword"><%= fpass %></span>
+	    
+	</form>
+</div>

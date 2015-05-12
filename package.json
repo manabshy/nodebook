@@ -1,0 +1,23 @@
+{
+  "author": "Manoj B <manabshy@gmail.com>",
+  "name": "nodejscourse",
+  "description": "Node.js Bootcamp - Build a Social Network in a Day",
+  "version": "0.0.0",
+  "dependencies": {
+    "express": "~3.3.5",
+    "ejs": "*",
+    "mongoose": "~3.6.18",
+    "ejs-locals": "~1.0.2",
+    "socket.io": "~0.9.16",
+    "multer": "0.x",
+    "easyimage": "0.x"
+  },
+  "repository": {
+    "type": "git",
+    "url":"https//dashboard.heroku.com/apps/morning-wildwood-3880/deploy/heroku-git"
+  },
+  "license": {
+    "type": "MIT",
+    "url": "http://en.wikipedia.org/wiki/MIT_License"
+  }
+}
