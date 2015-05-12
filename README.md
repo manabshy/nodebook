@@ -18,4 +18,7 @@ In this section we will wrap up the social network app, adding things such as a 
 ##Requirements
 * Laptop with Mac or Linux installed, or alternatively a Windows machine and root access to a linux web server. For Mac users, having the latest OS (Mountain Lion) is highly recommended to avoid installation errors
 * Some programming background (preferably JavaScript)
-* Basic knowledge of HTML and CSS
+* Basic knowledge of HTML5,CSS3,jQuery,Bootstrap
+
+Deployed to Heroku. Please hit the url below - Enjoy !!!
+https://mynodebook.herokuapp.com/ 
